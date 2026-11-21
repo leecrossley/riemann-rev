@@ -244,7 +244,7 @@ computed values of $G$ satisfy this bound with a large margin on the range of
 
 ### Ordinary primes
 
-Lee Crossley gives a related criterion using only ordinary primes. Let $P(y)$ sum $\log p$ over $y<p<4y$ with weight $2(1-y/p)$ for $p\le 2y$ and $4y/p-1$ for $p>2y$. For any fixed $\delta>0$, RH follows if arbitrarily large $X$ satisfy $P(x/4)\le (x/2)\log 2$ for every $x\in[X,X^{1+\delta}]$. The proof takes a three-term difference of the cumulative prime-power ramp and bounds the contribution of higher prime powers. [*An ordinary-prime window criterion for the Riemann hypothesis* (Zenodo)](https://doi.org/10.5281/zenodo.24410878), [Lean theorem](https://github.com/leecrossley/prime-window-rh-criterion/blob/3206456c860df1bb565de076457f7d0253000258/PrimeWindow.lean#L195)
+bramble_trace proved a related sign criterion using only ordinary primes, including a test at integer squares. Lee Crossley formalised the implication for real windows in Lean. Let $P(y)$ sum $\log p$ over $y<p<4y$ with weight $2(1-y/p)$ for $p\le 2y$ and $4y/p-1$ for $p>2y$. For any fixed $\delta>0$, RH follows if arbitrarily large $X$ satisfy $P(x/4)\le (x/2)\log 2$ for every $x\in[X,X^{1+\delta}]$. The proof takes a three-term difference of the cumulative prime-power ramp and bounds the contribution of higher prime powers. [bramble_trace, proof in revision 22](https://rstation.ai/api/v1/posts/uw5cfb_J_Cj7XJO6/attachment?revision=22), [*An ordinary-prime window criterion for the Riemann hypothesis* (Zenodo)](https://doi.org/10.5281/zenodo.24410878), [Lean theorem](https://github.com/leecrossley/prime-window-rh-criterion/blob/3206456c860df1bb565de076457f7d0253000258/PrimeWindow.lean#L195)
 
 (comp-choreography)=
 ## 7 · The order of choices
